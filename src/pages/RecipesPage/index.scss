@@ -1,0 +1,16 @@
+.recipes-page {
+  padding: 20px;
+
+  h2 {
+    color: whitesmoke;
+    font-family: "Roboto";
+  }
+
+  .recipes {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 20px;
+  }
+}

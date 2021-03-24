@@ -1,0 +1,64 @@
+.recipe-full {
+  padding: 20px;
+
+  h4 {
+    font-family: "Open Sans";
+  }
+
+  .recipe-full-top {
+    display: flex;
+
+    img {
+      border-radius: 5px;
+      width: 750px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .recipe-detail {
+      flex: 1;
+      padding: 20px;
+
+      h2 {
+        font-family: "Open Sans";
+        margin-bottom: 10px;
+      }
+
+      span.description {
+        color: gray;
+      }
+
+      span {
+        font-size: 16px;
+        font-family: "Source Sans Pro";
+      }
+
+      .recipe-detail-block {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+      }
+
+      h4.ingredient-title {
+        margin-top: 25px;
+      }
+
+      .ingredients {
+        padding-top: 15px;
+        margin-bottom: 20px;
+
+        .ingredient {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .recipe-full-bottom {
+    padding: 0 20px;
+
+    ul {
+      margin-top: 10px;
+    }
+  }
+}
